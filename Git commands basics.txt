@@ -1,0 +1,24 @@
+---Git commands--
+0. git congig --global user.email "Your email" (if u dont use --global , the user detail saved for the repository)
+    git config --global user.name "Your Name"
+1.git version --chek version
+  1.1 git init --to make repo as git repo
+2. git status --to check the status of the files like any unsaved work
+3. git add . (or git add -a)-- move files from working area to staging area
+4.git commit -m "Version1/2/3" -- to commit the changes in the respective version
+5 git log -- to track the logs in repository.
+6.Push git--- generate key (use documentation given in git website)
+7.Create repo in github
+8.use keys to setup the link between local repo and github repo
+9.to push the code : git push origin master
+10. To pull : git pull origin master
+11. to check the differenes iin the file made (before adding it to stage or before using git add . command): git diff index.txt
+12.Check diff in staging : git diff --staged
+13. revoke cheanges if it is staging area : git reset index.txt
+14. ---file again moved to working area(check by using git status)
+15.Now to revoke all changes frm file:
+git checkout index.txt
+---
+16 . git add -A -- STAGES ALL
+       git add . --stages new and modified , without deleted
+      git add -u :stage modified and deleted , without new
