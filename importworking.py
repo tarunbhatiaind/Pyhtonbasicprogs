@@ -2,7 +2,7 @@
 # from sklearn.ensemble import RandomForestClassifier
 # print(RandomForestClassifier())
 
-# you can create many functions in a file and use them in your code 
+# you can create many functions in a file and use them in your code
 import fileimport # better way to import rathter then to import var/class/functions or anything
 print(fileimport.a)
 # made fileimport and made a variable a in it with init value
