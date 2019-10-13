@@ -1,0 +1,9 @@
+--make another folder
+--open powershell in same folder or change path
+--make a virtualenv (virtualenv <name>)
+----activate the env --> .\<name>\Scripts\activate
+--if error--open powershell with admin provisions and use the command : set-ExecutionPolicy remotesigned
+--use the env , make a requirement file to store the packages used (pip freeze > requirements.txt)
+--share the same requirements.txt whenever using the same code after long time as packages may have changed the function name or anything else used in code
+--if needs to install all packages with same version as mentioned in requirements.txt either install manually all or use this file to install all the packages , then install using this -- install -r \requirements.txt
+--type deaactivate to come out of the env
