@@ -22,3 +22,11 @@ git checkout index.txt
 16 . git add -A -- STAGES ALL
        git add . --stages new and modified , without deleted
       git add -u :stage modified and deleted , without new
+--
+17. To contribute to someone else work :
+    -- download repo
+    -- do git init	
+    -- git fetch orgin master
+    -- git merge origin master
+    -- git push origin master --force ( if error shows like ! [rejected]        master -> master (fetch first))
+    -- after this you will be able to do normally 	
